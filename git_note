@@ -1,0 +1,87 @@
+
+
+
+# Initial repository/directory/folder
+
+git init
+
+
+
+________________________________________________________
+
+
+# Add programs using any software ( just file creation 
+
+nano filename
+
+
+
+______________________________________________________
+
+
+
+
+
+# add files that matters to save in the history
+
+git add filename1 filname2 ..... filenameN
+
+git add -A
+
+
+_________________________________________________
+
+
+# Check your present status
+git staus
+
+
+
+
+________________________________________________________
+
+
+
+
+
+# commit your changes
+
+git commit -m "short and sweet message to describe changes"
+
+
+
+
+
+_____________________________________________________
+
+# Access history 
+
+git log
+
+
+
+___________________________________________________
+
+
+# Access different timelines
+
+git checkout ID-Min4_digits
+
+
+
+# NOTE : Make a copy, do not change the history
+
+# To jump back
+
+git checkout master
+________________________________________________
+
+
+
+# Tagging for faster access
+
+git tag ID-Min4_digits  version_name
+
+
+_____________________________________________________
+
